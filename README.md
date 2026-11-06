@@ -53,7 +53,7 @@ All paths are relative, so the site works from the repository root on GitHub Pag
 
 ## Images and videos
 
-Photos and YouTube video IDs are added by hand. Until a photo exists, each image slot shows a patterned placeholder with the dish or region name. Every YouTube embed uses `REPLACE_ME` as its ID. See `TODO-assets.md` for the full list.
+Attained from Youtube and Unsplash
 
 ## JavaScript features
 

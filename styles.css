@@ -1,10 +1,3 @@
-/* ==========================================================================
-   Tastes of Africa: main stylesheet
-   Fonts (Baloo 2 and Poppins) are loaded from Google Fonts in each page head.
-   The file is organised top to bottom, from the colour palette and base
-   styles, through shared components, to page specific layouts.
-   ========================================================================== */
-
 /* Main resets */
 *,
 *::before,
@@ -14,12 +7,6 @@
     box-sizing: border-box;
 }
 
-/* --------------------------------------------------------------------------
-   1. Colour palette and design tokens
-   The first block is the original project palette. The second block maps
-   those colours onto roles (background, text, links and so on) so the dark
-   theme only has to swap the roles, not every rule in the file.
-   -------------------------------------------------------------------------- */
 :root {
     --forest-green: #18542a;
     --black: #000000;
@@ -67,8 +54,7 @@
     color-scheme: light;
 }
 
-/* Dark theme, chosen with the toggle button. A deep green-black page with
-   cream text and slightly softened accents. */
+/* Dark theme */
 :root[data-theme="dark"] {
     --forest-green: #1F6A37;
     --red: #EE6A5E;
@@ -101,8 +87,6 @@
     color-scheme: dark;
 }
 
-/* Same dark values for a first visit when the device prefers dark mode and
-   the visitor has not picked a theme yet. */
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
         --forest-green: #1F6A37;
@@ -137,9 +121,7 @@
     }
 }
 
-/* --------------------------------------------------------------------------
-   2. Base elements
-   -------------------------------------------------------------------------- */
+
 html {
     font-size: 100%;
     background-color: var(--bg);
