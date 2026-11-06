@@ -1,10 +1,3 @@
-/* ==========================================================================
-   Tastes of Africa: site script
-   Every feature checks that its elements exist before running, so the same
-   file can be loaded on every page without causing errors.
-   ========================================================================== */
-
-// Tell the stylesheet that JavaScript is running (used for the mobile menu).
 document.documentElement.classList.add("js");
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -22,11 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setupNewsletter();
     setupScrollReveal();
 
-    /* ----------------------------------------------------------------------
-       1. Theme toggle
-       Reads a saved choice first, falls back to the device preference, and
-       saves any change the visitor makes.
-       ---------------------------------------------------------------------- */
+// Theme toggle
     function setupThemeToggle() {
         const button = document.querySelector(".theme-toggle");
         let saved = null;
