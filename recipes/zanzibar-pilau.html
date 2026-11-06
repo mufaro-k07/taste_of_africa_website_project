@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zanzibar Pilau | Tastes of Africa</title>
+    <meta name="description" content="Rice perfumed with cumin, cardamom and cloves, carried by the winds of the Indian Ocean and still served at celebrations on the Swahili coast.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Site header: logo, main navigation and theme switch -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="../index.html" aria-label="Tastes of Africa, home page">
+                <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path class="steam" d="M14 14c-2-2.5 2-4.5 0-8M20 14c-2-2.5 2-4.5 0-8M26 14c-2-2.5 2-4.5 0-8"/><path class="pot" d="M4 17h32a2 2 0 0 1 0 4h-1.2A15 15 0 0 1 20 34a15 15 0 0 1-14.8-13H4a2 2 0 0 1 0-4z"/></svg>
+                <span class="logo-word">Tastes <span>of</span> Africa</span>
+            </a>
+
+            <button type="button" class="theme-toggle" aria-pressed="false" aria-label="Switch to dark theme">
+                <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+                <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+            </button>
+
+            <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+                <span>Menu</span>
+            </button>
+
+            <nav id="site-nav" class="site-nav" aria-label="Main">
+                <ul class="nav-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../recipes.html" aria-current="page">Recipes<span class="fav-count" hidden></span></a></li>
+                    <li class="has-sub">
+                        <a href="../regions.html">Regions</a>
+                        <ul class="sub-list">
+                            <li><a href="../regions/west-africa.html">West Africa</a></li>
+                            <li><a href="../regions/east-africa.html">East Africa</a></li>
+                            <li><a href="../regions/southern-africa.html">Southern Africa</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <article class="container">
+            <!-- Breadcrumb, title and photo -->
+            <header class="page-intro">
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <ol>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../recipes.html">Recipes</a></li>
+                        <li><span aria-current="page">Zanzibar Pilau</span></li>
+                    </ol>
+                </nav>
+                <div class="recipe-title">
+                    <h1>Zanzibar Pilau</h1>
+                    <span class="stamp">East Africa</span>
+                    <button type="button" class="favorite-btn" data-id="zanzibar-pilau" aria-pressed="false" aria-label="Save Zanzibar Pilau to favorites"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20.5S3 15 2.2 9.6C1.6 5.9 4.2 3.5 7 3.5c2.2 0 3.9 1.3 5 3 1.1-1.7 2.8-3 5-3 2.8 0 5.4 2.4 4.8 6.1C21 15 12 20.5 12 20.5z"/></svg><span class="favorite-label">Favorite</span></button>
+                </div>
+                <figure class="slot slot--wide recipe-hero-image" data-label="Zanzibar Pilau">
+                    <img src="../images/dishes/zanzibar-pilau.jpg" alt="Brown spiced pilau rice with tender pieces of beef, served with a fresh tomato and onion salad" loading="lazy">
+                </figure>
+            </header>
+
+            <div class="recipe-layout">
+                <div>
+                    <!-- The story behind the dish -->
+                    <section class="story" aria-labelledby="story-title">
+                        <h2 id="story-title" class="squiggle">The story</h2>
+                        <p>For centuries the monsoon winds carried ships between India, Arabia and the Swahili coast, and they brought spices that never left. Pilau is what happens when cumin, cardamom, cloves and cinnamon meet rice and slow cooked beef on the island of Zanzibar.</p>
+                        <p>It is made for weddings, Eid and Sunday gatherings, and the smell alone will gather the neighbours. Fry the onions until they are deep golden brown, because that colour is the soul of the dish. Finish it with kachumbari, a fresh tomato and onion salad, for a bright, sharp contrast.</p>
+                    </section>
+
+                    <!-- Method, split into phases -->
+                    <section class="method" aria-labelledby="method-title">
+                        <h2 id="method-title" class="squiggle">Method</h2>
+                        <details class="phase" open>
+                            <summary>Prepare <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></summary>
+                            <ol class="steps">
+                                <li>Rinse the rice until the water runs clear and let it drain.</li>
+                                <li>Crush the garlic and ginger together.</li>
+                            </ol>
+                        </details>
+                        <details class="phase">
+                            <summary>Cook <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></summary>
+                            <ol class="steps">
+                                <li>Fry the onions in oil until deep golden brown.</li>
+                                <li>Add the beef, garlic, ginger and all the whole spices and brown well.</li>
+                                <li>Pour in the stock, cover, and simmer for about 45 minutes until the beef is tender.</li>
+                                <li>Add the rice, level the top, cover tightly, and cook on low heat for about 20 minutes.</li>
+                            </ol>
+                        </details>
+                        <details class="phase">
+                            <summary>Serve <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></summary>
+                            <ol class="steps">
+                                <li>Rest the pot off the heat for 10 minutes, then fluff gently with a fork.</li>
+                                <li>Serve with kachumbari.</li>
+                            </ol>
+                        </details>
+                    </section>
+                </div>
+
+                <!-- Quick facts, servings scaler and ingredients -->
+                <aside class="recipe-box" aria-label="Quick facts and ingredients">
+                    <dl class="facts">
+                        <div><dt>Serves</dt><dd>4</dd></div>
+                        <div><dt>Time</dt><dd>About 1 hour 30 minutes</dd></div>
+                        <div><dt>Difficulty</dt><dd>Medium</dd></div>
+                    </dl>
+                    <div class="scaler">
+                        <label for="servings">Servings</label>
+                        <input type="number" id="servings" name="servings" min="1" max="12" step="1" value="4" inputmode="numeric">
+                    </div>
+                    <h2>Ingredients</h2>
+                    <p class="visually-hidden" aria-live="polite">Quantities shown for <span id="servings-text">4 servings</span>.</p>
+                    <ul class="ingredients" data-base-servings="4">
+                        <li data-amount="2" data-unit="cups"><span class="qty">2 cups</span> basmati rice</li>
+                        <li data-amount="500" data-unit="g"><span class="qty">500 g</span> beef, cubed or on the bone</li>
+                        <li data-amount="3" data-unit="whole"><span class="qty">3</span> onions, thinly sliced</li>
+                        <li data-amount="5" data-unit="whole"><span class="qty">5</span> garlic cloves</li>
+                        <li data-amount="1" data-unit="whole"><span class="qty">1</span> thumb of ginger, grated</li>
+                        <li data-amount="2" data-unit="tsp"><span class="qty">2 teaspoons</span> cumin seeds</li>
+                        <li data-amount="6" data-unit="whole"><span class="qty">6</span> cardamom pods</li>
+                        <li data-amount="6" data-unit="whole"><span class="qty">6</span> whole cloves</li>
+                        <li data-amount="1" data-unit="whole"><span class="qty">1</span> cinnamon stick</li>
+                        <li data-amount="1" data-unit="tsp"><span class="qty">1 teaspoon</span> black peppercorns</li>
+                        <li data-amount="0.3" data-unit="cup"><span class="qty">0.3 cup</span> vegetable oil</li>
+                        <li data-amount="4" data-unit="cups"><span class="qty">4 cups</span> beef stock</li>
+                        <li>Salt to taste</li>
+                    </ul>
+                </aside>
+            </div>
+
+            <!-- Video tutorial and map of where the dish comes from -->
+            <div class="recipe-media">
+                <section class="media-block" aria-labelledby="video-title">
+                    <h2 id="video-title">Watch it made</h2>
+                    <!-- VIDEO: Zanzibar Pilau cooking tutorial. Replace REPLACE_ME with the YouTube video ID. -->
+                    <div class="video-frame">
+                        <iframe src="https://www.youtube-nocookie.com/embed/REPLACE_ME" title="How to cook Zanzibar Pilau" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </section>
+                <section class="media-block" aria-labelledby="map-title">
+                    <h2 id="map-title">Where it comes from</h2>
+                    <div class="map-frame">
+                        <iframe src="https://www.google.com/maps?q=Zanzibar,+Tanzania&amp;output=embed" title="Map of Zanzibar, Tanzania" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Links to neighbouring recipes and the region page -->
+            <nav class="recipe-pager" aria-label="More recipes">
+                <a class="pager-prev" href="groundnut-stew.html"><small>Previous recipe</small><strong>Groundnut Stew</strong></a>
+                <a class="pager-region" href="../regions/east-africa.html"><small>Back to region</small><strong>East Africa</strong></a>
+                <a class="pager-next" href="chakalaka.html"><small>Next recipe</small><strong>Chakalaka</strong></a>
+            </nav>
+        </article>
+    </main>
+
+    <!-- Site footer: pattern edge, blurb, links and newsletter -->
+    <footer class="site-footer">
+        <div class="pattern-strip" aria-hidden="true"></div>
+        <div class="container footer-grid">
+            <div>
+                <h2>Tastes of Africa</h2>
+                <p>Tastes of Africa celebrates the dishes, the people and the stories behind African food.</p>
+                <p class="footer-tagline">One continent. Endless flavours.</p>
+            </div>
+
+            <nav aria-label="Footer">
+                <h2>Explore</h2>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../recipes.html">Recipes</a></li>
+                    <li><a href="../regions.html">Regions</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <h2>The newsletter</h2>
+                <form class="newsletter-form" action="#" method="post">
+                    <label for="newsletter-email">Get new recipes and stories by email.</label>
+                    <div class="field-inline">
+                        <input type="email" id="newsletter-email" name="email" placeholder="you@example.com" autocomplete="email" required>
+                        <button type="submit" class="btn btn--primary">Subscribe</button>
+                    </div>
+                    <p class="newsletter-message" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>Tastes of Africa, a student project for Advanced Frontend Web Development.</p>
+        </div>
+    </footer>
+</body>
+</html>
